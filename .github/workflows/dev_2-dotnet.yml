@@ -25,7 +25,7 @@ jobs:
       uses: dorny/test-reporter@v1
       if: always()
       with:
-        name: Test Results on dev
+        name: Test Results on dev_2
         path: ./TestResults/*.trx
         reporter: dotnet-trx
     - name: Create Release
